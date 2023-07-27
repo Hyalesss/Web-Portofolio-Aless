@@ -11,46 +11,58 @@
 
 <body class="bg-neutral-900">
 
-    <div class="container py-3 flex-col justify-center items-center gap-12 inline-flex">
-        <div class="absolute left-[-8px] top-[48px] w-[300px] h-[300px] bg-rose-600 rounded-full blur-[250px]">
-        </div>
-        <div class="w-auto px-[104px] flex-col justify-center items-center gap-2.5 inline-flex">
-            <div class="w-auto px-[104px] py-9 flex-col justify-center items-center gap-14 inline-flex">
-                <div class="justify-center items-center gap-14 inline-flex">
-                    <div
-                        class="AboutMe opacity-75 text-orange-100 hover:text-rose-600 duration-500 hover:duration-500 text-sm font-bold leading-none">
-                        <a href="#">HOME</a>
-                    </div>
-                    <div
-                        class="AboutMe opacity-75 text-orange-100 hover:text-rose-600 duration-500 hover:duration-500 text-sm font-bold leading-none">
-                        <a href="#">ABOUT ME</a>
-                    </div>
-                    <div
-                        class="AboutMe opacity-75 text-orange-100 hover:text-rose-600 duration-500 hover:duration-500 text-sm font-bold leading-none">
-                        <a href="#">PROJECT</a>
-                    </div>
-                    <div
-                        class="AboutMe opacity-75 text-orange-100 hover:text-rose-600 duration-500 hover:duration-500 text-sm font-bold leading-none">
-                        <a href="#">CONTACT</a>
-                    </div>
-                </div>
-            </div>
-            <div class="w-auto py-6 flex-col justify-center items-center gap-9 inline-flex">
-                <div class="text-center text-orange-100 text-lg font-normal leading-[27px]">
-                    WELCOME TO MY PERSONAL WEBSITE
-                </div>
-                <div class="text-center"><span class="text-orange-100 text-[64px] font-bold leading-[88px]">Hi,
-                        I'm</span><span class="text-white text-[64px] font-bold leading-[88px]"> </span><span
-                        class="text-rose-600 text-[64px] font-bold leading-[88px]">Alessandro
-                        Benaya<br /></span> <span class="text-orange-100 text-[64px] font-bold leading-[88px]">a UI/UX
-                        Enthusiast</span>
-                </div>
+    <div class="flex p-[12px] flex-col justify-center items-center gap-[48px]">
+        <!-- <div
+            class="bolanyala w-[300px] h-[300px] absolute left-[8px] top[-48px] rounded-[200px] bg-rose-600 blur-[100px]">
+        </div> -->
 
-            </div>
-        </div>
-    </div>
+        <section class="header-banner flex flex-col justify-center items-center gap-[10px] self-stretch">
+
+            <nav class=" flex py-[36px] justify-center gap-[56px] self-stretch ">
+                <div class="w-full flex justify-between mx-8 flex-wrap items-center  md:w-auto ">
+                    <a href="https://flowbite.com/" class="flex items-center">
+                        <span
+                            class="self-center text-2xl font-bold whitespace-nowrap text-rose-600 md:hidden">PORTOFOLIO</span>
+                    </a>
+                    <button data-collapse-toggle="navbar-default" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-rose-600 rounded-lg md:hidden hover:text-white hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul
+                            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-rose-600 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:border-none">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pl-3 pr-4 text-white rounded hover:bg-rose-600 md:hover:bg-transparent md:border-0 md:hover:text-rose-600 duration-200 md:p-0">
+                                    Home</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pl-3 pr-4 text-white rounded hover:bg-rose-600 md:hover:bg-transparent md:border-0 md:hover:text-rose-600 duration-200 md:p-0">About</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pl-3 pr-4 text-white rounded hover:bg-rose-600 md:hover:bg-transparent md:border-0 md:hover:text-rose-600 duration-200 md:p-0">Services</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pl-3 pr-4 text-white rounded hover:bg-rose-600 md:hover:bg-transparent md:border-0 md:hover:text-rose-600 duration-200 md:p-0">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </section>
     </div>
 
+    <script src="/node_modules/flowbite/dist/flowbite.js"></script>
 </body>
 
 </html>
