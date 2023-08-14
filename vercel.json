@@ -1,6 +1,6 @@
 {
     "rewrites": [{
-            "source": "/styles/(.*)",
+            "source": "/(.*)",
             "destination": "/src/styles/$1"
         },
         {
